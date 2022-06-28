@@ -1,5 +1,19 @@
-const btn = document.getElementById('hello-btn')
+const interests =
+["Horror movies",
+"David Lynch films",
+"The TV show Twin Peaks",
+"Heavy metal music",
+"Spicy food",
+"Instant ramen",
+"Retro video games"];
 
-btn.addEventListener('click', () => {
-  window.alert('Hello world!')
-})
+function sayHi() {
+  window.alert('Check the console');
+  console.log("Hey, what's up? You good?");
+}
+
+function intButton() {
+  let content = interests[Math.floor(Math.random() * interests.length)];
+  //console.log(content);
+  document.getElementById("interest-space").innerText = content;
+}
