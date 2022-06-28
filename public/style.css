@@ -4,6 +4,7 @@ body {
   background-image: url(https://wallpapercave.com/wp/wp3354468.jpg);
   background-repeat: no-repeat;
   background-attachment: fixed;
+  background-size: 100%;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   margin: 0;
 }
@@ -15,33 +16,50 @@ main{
   box-sizing: border-box;
   background-color: #464646;
   color: white;
+  box-shadow: 0px 0px 40px black;
 }
 h1 {
   color: goldenrod;
   text-align: center;
+  font-family: 'Vollkorn SC', serif;
+  font-size: 3em;
 }
 h2 {
   color: goldenrod;
+  font-weight: normal;
+  font-family: 'Vollkorn SC', serif;
 }
 a:link {
-  color: red;
+  color: rgb(255, 24, 24);
 }
 a:visited {
-  color: rgb(187, 0, 0);
+  color: rgb(225, 0, 0);
 }
 a:hover {
-  color: lightcoralu;
+  color: rgb(255, 144, 144);
 }
 .subtitle {
   text-align: center;
+}
+#hello-btn {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
 .avatar {
   width: 300px;
   display: block;
   margin-left: auto;
   margin-right: auto;
-  box-shadow: 0px 0px 8px #383838;
+  margin-bottom: 60px;
+  box-shadow: 0px 0px 10px 5px #2b2a2a;
 }
 .interest-space {
   height: 16px;
+}
+.correct {
+  color: greenyellow;
+}
+.incorrect {
+  color: red;
 }

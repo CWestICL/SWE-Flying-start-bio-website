@@ -7,6 +7,9 @@
   <link rel="stylesheet" href="style.css">
   <script src="main.js" defer></script>
   <title>Callum's Bio Page</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Vollkorn+SC&display=swap" rel="stylesheet"> 
 </head>
 <body>
   <main>
@@ -20,7 +23,7 @@
 
     <article>
       <h2>An interesting fact</h2>
-      <p>404 Not Found</p>
+      <p>I have 'photic sneeze reflex', which means bright lights make me sneeze. I literally can't go outside on a sunny day without sneezing.</p>
     </article>
 
     <article>
@@ -48,16 +51,29 @@
       <p>Get into a career that I don't hate. Apparently it's harder than it looks but I think I'm onto a winner now.</p>
     </article>
 
+    <!--
     <article>
       <h2>My hobbies</h2>
       <p>Click the button to find out one of my interests:</p>
       <p><button id="int-btn" onclick="intButton();">Generate</button></p>
       <p id="interest-space" class="interest-space"></p>
     </article>
+   -->
+
+    <article>
+      <h2>My hobbies</h2>
+      <p>Can you guess which of the following are interests of mine?</p>
+      <p><button id="quiz-btn" onclick="quizStart();">Start quiz</button></p>
+      <p id="quiz-space" class="quiz-space"></p>
+      <div id="list-space">
+        <p>My interests:</p>
+        <ul id="quiz-list"></ul>
+      </div>
+    </article>
 
     <article>
       <h2>Anything else?</h2>
-      <p>I think that's more than enough about me. How about you? Tell me about yourself.</p>
+      <p>I think that's more than enough about me. How about you? You doing good?</p>
     </article>
 
   </main>
